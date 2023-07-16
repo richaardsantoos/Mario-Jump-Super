@@ -9,6 +9,9 @@ const jump = () => {
     }, 500);
 }
 
+// Adicione um listener de eventos para o toque (touchstart)
+document.addEventListener('touchstart', jump);
+
 const loop = setInterval(() => {
 
 
